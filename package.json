@@ -1,0 +1,26 @@
+{
+  "name": "stream-bus",
+  "version": "0.0.0",
+  "description": "A stream-based message bus",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "ci-test": "gulp dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmaher/messaging.git"
+  },
+  "keywords": [],
+  "author": "Christian Maher",
+  "bugs": {
+    "url": "https://github.com/cmaher/messaging/issues"
+  },
+  "homepage": "https://github.com/cmaher/messaging#readme",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "eslintrc": "git+https://github.com/capacitorjs/eslintrc.git#v1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-capacitorjs-common": "git+https://github.com/capacitorjs/gulp-capacitorjs-common.git#v0.1.0"
+  }
+}
