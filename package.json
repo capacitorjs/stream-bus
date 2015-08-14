@@ -1,8 +1,8 @@
 {
   "name": "stream-bus",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A stream-based message bus",
-  "main": "index.js",
+  "main": "lib/stream-bus.js",
   "scripts": {
     "test": "gulp test",
     "ci-test": "gulp dist"
@@ -21,6 +21,9 @@
   "devDependencies": {
     "eslintrc": "git+https://github.com/capacitorjs/eslintrc.git#v1.0.0",
     "gulp": "^3.9.0",
-    "gulp-capacitorjs-common": "git+https://github.com/capacitorjs/gulp-capacitorjs-common.git#v0.1.0"
+    "gulp-capacitorjs-common": "git+https://github.com/capacitorjs/gulp-capacitorjs-common.git#v0.1.2"
+  },
+  "dependencies": {
+    "rx": "^3.0.0"
   }
 }
